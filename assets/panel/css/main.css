@@ -1,0 +1,888 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins,sans-serif
+}
+
+.sidebar .nav-links::-webkit-scrollbar {
+    display: none
+}
+
+.sidebar .nav-links li {
+    position: relative;
+    list-style: none;
+    transition: .4s
+}
+
+.sidebar .nav-links li .sub-menu a:hover,.sidebar .nav-links li.active:before,.sidebar .nav-links li:hover:before {
+    opacity: 1
+}
+
+.sidebar .nav-links li.showMenu i.arrow {
+    transform: rotate(-180deg)
+}
+
+.sidebar .nav-links li a .link_name {
+    font-size: 16px;
+    font-weight: 400;
+    color: #11101d;
+    transition: .4s
+}
+
+.sidebar .nav-links li .sub-menu a {
+    color: #1d1b31;
+    font-size: 15px;
+    padding: 5px 0;
+    white-space: nowrap;
+    opacity: .6;
+    transition: .3s
+}
+
+.home-section {
+    height: 100vh!important
+}
+
+.modal,.search-fields div {
+    width: 100%
+}
+
+.home-section .book-table table tr .action-btns button a {
+    text-decoration: none;
+    color: #fff
+}
+
+.home-section .control-panel {
+    height: auto
+}
+
+.home-section .data-form .input-form label,.home-section .input-form label,.modal-content .input-form label,select {
+    font-size: 15px
+}
+
+.error {
+    padding: 10px 30px
+}
+
+.home-section .control-panel .panel-container .panel label {
+    font-size: 20px
+}
+
+.home-section .control-panel .container {
+    margin-top: 1.5rem
+}
+
+.search-fields {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 2rem
+}
+
+.search-fields div input {
+    width: 100%;
+    height: 50px;
+    border-radius: 6px;
+    border: 1px solid #f0f0f0
+}
+
+.search-fields .search-btn {
+    display: flex;
+    gap: 1rem;
+    align-items: center
+}
+
+.home-section .control-panel .container .book-cover-img #img-preview {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border: 2px dashed #f0f0f0!important;
+    padding: 4px;
+    border-radius: 6px
+}
+
+.home-section .control-panel .container .update-pass-form {
+    background-color: #fff;
+    width: fit-content;
+    padding: 20px 30px 30px;
+    border-radius: 6px
+}
+
+.home-section .control-panel h4,.modal-content .modal-header h4 {
+    color: #11101d;
+    text-transform: uppercase;
+    border-left: 4px solid #6c5dd4;
+    padding-left: 10px
+}
+
+.home-section .input-form {
+    flex-direction: column
+}
+
+.modal .modal-content .input-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 1rem
+}
+
+.home-section .input-form .input-group,.home-section .input-form .upload-file {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem
+}
+
+.home-section .data-form .input-form .upload-file input,.home-section .input-form .upload-file input {
+    margin-top: .5rem
+}
+
+.home-section .data-form .input-form .book-desc textarea,.home-section .input-form .book-desc textarea {
+    width: -webkit-fill-available;
+    margin-top: .5rem;
+    border: 1px solid #f0f0f0;
+    border-radius: 6px;
+    resize: none;
+    padding: 5px 10px
+}
+
+.upload-file .input-1,.upload-file .input-2 {
+    width: 50%
+}
+
+.home-section .data-form .input-form input[type=date],.home-section .data-form .input-form input[type=text],.home-section .input-form input[type=date],.input-form input[type=password],.modal-content .input-form input {
+    width: -webkit-fill-available;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #f0f0f0;
+    padding: 5px 10px;
+    outline: 0;
+    margin-top: .5rem
+}
+
+.home-section .input-form input[type=text] {
+    margin-top: .5rem
+}
+
+.home-section .input-form input[type=submit] {
+    font-size: 13px;
+    font-weight: 600
+}
+
+.home-section .control-panel h4 {
+    font-size: 18px;
+    font-weight: 600
+}
+
+.modal-content .input-form textarea,.search-fields div input,select {
+    width: -webkit-fill-available;
+    padding: 5px 10px;
+    outline: 0;
+    margin-top: .5rem
+}
+
+.home-section .book-table table tr th {
+    padding: 10px 0;
+    font-weight: 600
+}
+
+.home-section .book-table table tr td {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #f0f0f0
+}
+
+.home-section .book-table table tr td img {
+    width: 100px;
+    border-radius: 6px
+}
+
+.home-section .book-table table tr .action-btns button {
+    color: #fff;
+    border: 0;
+    padding: 6px 6px 5px 5px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 4px
+}
+
+select {
+    height: 40px;
+    border: 1px solid #f0f0f0;
+    border-radius: 6px;
+    background-image: url(../../../images/chevron-down.svg);
+    background-repeat: no-repeat;
+    background-size: 12px 20px;
+    background-position: right .75rem center
+}
+
+.add-cat button {
+    background: 0 0;
+    border: 0;
+    cursor: pointer;
+    color: #6c5dd4;
+    margin-top: 1rem
+}
+
+.add-cat button i {
+    font-size: 35px
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 105;
+    left: 0;
+    top: 0;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,.4);
+    transition: .3s ease-in-out
+}
+
+.modal-main {
+    display: flex;
+    justify-content: center;
+    padding: 0 15px
+}
+
+.modal .modal-content {
+    width: 400px;
+    margin-top: 10%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 6px
+}
+
+.modal-content .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.modal-content .modal-header span i {
+    font-size: 30px
+}
+
+.modal-content .input-form input[type=submit] {
+    background-color: #6c5dd4;
+    color: #fff;
+    border-radius: 6px;
+    height: 45px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer
+}
+
+.modal-content .input-form textarea {
+    height: 80px;
+    border-radius: 6px;
+    border: 1px solid #f0f0f0;
+    resize: none
+}
+
+.error-msg {
+    margin-top: .3rem;
+    font-size: 13px;
+    color: #e55352
+}
+
+.error {
+    background-color: #fff;
+    text-align: center;
+    margin-top: 1rem
+}
+
+@media (max-width:420px) {
+    .sidebar.close .nav-links li .sub-menu {
+        display: none
+    }
+}
+
+@media only screen and (max-width:550px) {
+    .home-section .control-panel .panel-container {
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 2rem
+    }
+
+    .home-section .control-panel .panel-container .panel {
+        padding: 30px 15px
+    }
+
+    .home-section .input-form .input-group,.search-fields .search-btn {
+        flex-direction: column
+    }
+
+    .pagination {
+        flex-direction: column-reverse;
+        gap: 1rem
+    }
+
+    .pagination .pagination-list {
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 1.2rem!important
+    }
+
+    .search-fields {
+        flex-direction: column;
+        gap: 1rem!important
+    }
+}
+
+@media only screen and (max-width:730px) {
+    .home-section .add-student-form .input-form .input-group,.home-section .input-form .upload-file {
+        flex-direction: column
+    }
+
+    .home-section .input-form .upload-file .Course-option {
+        width: 100%
+    }
+}
+
+@media only screen and (max-width:950px) {
+    .home-section .control-panel .container {
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden
+    }
+
+    .home-section .control-panel .container .data-form {
+        width: 100%;
+        overflow: hidden
+    }
+
+    .home-section .control-panel .book-table table {
+        width: 900px
+    }
+}
+
+.sidebar .logo-details i,.sidebar .nav-links li i {
+    height: 50px;
+    min-width: 50px;
+    line-height: 50px;
+    color: #11101d;
+    text-align: center
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 260px;
+    z-index: 100;
+    transition: .5s
+}
+
+.sidebar.close {
+    width: 50px
+}
+
+.sidebar .logo-details {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center
+}
+
+.sidebar .logo-details i {
+    font-size: 30px
+}
+
+.sidebar .logo-details .logo_name {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+    transition: .3s .1s
+}
+
+.sidebar.close .logo-details .logo_name {
+    transition-delay: 0s;
+    opacity: 0;
+    pointer-events: none
+}
+
+.sidebar .nav-links {
+    height: 100%;
+    padding: 30px 0 150px;
+    overflow: auto;
+    margin-top: 2rem
+}
+
+.sidebar.close .nav-links {
+    overflow: visible
+}
+
+.home-section .control-panel .panel-container .panel,.home-section .home-content,.sidebar .nav-links li .iocn-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.sidebar .nav-links li.showMenu .sub-menu,.sidebar.close .nav-links li .iocn-link {
+    display: block
+}
+
+.sidebar .nav-links li i {
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s
+}
+
+.sidebar .nav-links li.active a .link_name,.sidebar .nav-links li.active i,.sidebar .nav-links li:hover a .link_name,.sidebar .nav-links li:hover i {
+    color: #6c5dd4
+}
+
+.sidebar .nav-links li .sub-menu .link_name,.sidebar.close .nav-links i.arrow {
+    display: none
+}
+
+.sidebar .nav-links li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none
+}
+
+.sidebar.close .nav-links li a .link_name {
+    display: none;
+    opacity: 0;
+    pointer-events: none
+}
+
+.sidebar .nav-links li .sub-menu {
+    padding: 6px 6px 14px 80px;
+    margin-top: -10px;
+    background: #fff;
+    display: none
+}
+
+.sidebar.close .nav-links li .sub-menu {
+    position: absolute;
+    left: 100%;
+    top: -10px;
+    margin-top: 0;
+    padding: 10px 20px;
+    border-radius: 0 6px 6px 0;
+    opacity: 0;
+    display: block;
+    pointer-events: none;
+    transition: none
+}
+
+.sidebar.close .nav-links li:hover .sub-menu {
+    top: 0;
+    opacity: 1;
+    pointer-events: auto;
+    transition: .4s
+}
+
+.sidebar.close .nav-links li .sub-menu .link_name {
+    font-size: 18px;
+    opacity: 1;
+    display: block
+}
+
+.sidebar .nav-links li .sub-menu.blank {
+    padding: 3px 20px 6px 16px;
+    opacity: 0;
+    pointer-events: none
+}
+
+.sidebar .nav-links li:hover .sub-menu.blank {
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.home-section {
+    position: relative;
+    background: #e4e9f7;
+    left: 260px;
+    width: calc(100% - 260px);
+    transition: .5s
+}
+
+.sidebar.close~.home-section {
+    left: 50px;
+    width: calc(100% - 50px)
+}
+
+.home-section .home-content {
+    height: 60px
+}
+
+.home-content .logout {
+    margin-right: 20px
+}
+
+.home-content .logout button {
+    background-color: #6c5dd4;
+    border: 0;
+    border-radius: 6px;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: 600
+}
+
+.home-content .logout button a {
+    text-decoration: none;
+    color: #fff
+}
+
+.home-section .home-content .fa-bars {
+    color: #11101d;
+    font-size: 25px;
+    margin: 0 15px;
+    cursor: pointer
+}
+
+.home-section .home-content .text {
+    font-size: 26px;
+    font-weight: 600
+}
+
+.home-section .control-panel {
+    padding: 20px 30px;
+    background-color: #e4e9f7
+}
+
+.home-section .control-panel p.error,.home-section .msg {
+    text-align: center;
+    margin-top: 1rem
+}
+
+.home-section .control-panel p.error span,.home-section .msg span {
+    color: #6c5dd4;
+    font-weight: 600
+}
+
+.home-section .control-panel .welcome-msg {
+    background-color: #fff;
+    width: fit-content;
+    padding: 20px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 6px;
+    text-transform: capitalize;
+    margin-top: 1rem
+}
+
+.home-section .control-panel .welcome-msg span {
+    color: #6c5dd4;
+    font-weight: 600;
+    font-size: 17px
+}
+
+.home-section .control-panel .panel-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    margin-top: 1rem
+}
+
+.home-section .control-panel .panel-container .panel {
+    color: #fff;
+    border-radius: 6px;
+    padding: 15px 20px
+}
+
+.home-section .control-panel .panel-container .panel .data {
+    display: flex;
+    flex-direction: column
+}
+
+.home-section .control-panel .panel-container .panel i,.home-section .control-panel .panel-container .panel span {
+    font-size: 40px
+}
+
+.action-btns .return button,.home-section .book-table table tr .action-btns .edit button,.home-section .control-panel .panel-container .panel:first-child {
+    background-color: #6c5dd4
+}
+
+.home-section .control-panel .panel-container .panel:nth-child(2) {
+    background-color: #39f
+}
+
+.home-section .control-panel .panel-container .panel:nth-child(3) {
+    background-color: #f9b116
+}
+
+.home-section .control-panel .panel-container .panel:nth-child(4) {
+    background-color: #e55352
+}
+
+.home-section .input-form {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1rem
+}
+
+.home-section .input-form input[type=text] {
+    width: -webkit-fill-available;
+    height: 40px;
+    border: 1px solid #f0f0f0;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: 0;
+    padding: 0 10px
+}
+
+.home-section .data-form .input-form input[type=submit],.home-section .input-form input[type=submit] {
+    background-color: #6c5dd4;
+    color: #fff;
+    border: 0;
+    text-transform: uppercase;
+    cursor: pointer;
+    height: 38px;
+    width: 100px;
+    border-radius: 6px
+}
+
+.home-section .control-panel .book-table {
+    overflow-x: auto;
+    margin-top: 3rem
+}
+
+.home-section .control-panel .book-table table {
+    border-collapse: collapse;
+    border: 1px solid #f0f0f0;
+    text-align: center;
+    width: 100%
+}
+
+.home-section .book-table table .table-header {
+    margin-bottom: 1rem;
+    background-color: #6c5dd4;
+    color: #fff
+}
+
+.action-btns .send-mail button,.home-section .book-table table tr .action-btns .delete button {
+    background-color: #e55352;
+    margin-top: .5rem
+}
+
+.home-section .main p {
+    margin-top: 3rem;
+    text-align: center;
+    background-color: #fff;
+    padding: 5px 0
+}
+
+.home-section .control-panel .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem
+}
+
+.home-section .control-panel .book-cover-img {
+    width: 150px;
+    height: 180px;
+}
+
+.home-section .control-panel .book-cover-img img {
+    width: inherit;
+    border: 2px dashed #f0f0f0!important;
+    padding: 4px;
+    border-radius: 6px
+}
+
+.home-section .control-panel .container .data-form {
+    background-color: #fff;
+    padding: 30px;
+    width: 75%;
+    border-radius: 6px
+}
+
+.home-section .data-form h4 {
+    color: #11101d;
+    text-transform: uppercase;
+    border-left: 4px solid #6c5dd4;
+    padding-left: 10px
+}
+
+.home-section .data-form .input-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 1rem
+}
+
+.home-section .data-form .input-form .input-group {
+    width: 100%
+}
+
+.home-section .data-form .input-form .input-group,.home-section .data-form .input-form .upload-file {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem
+}
+
+.home-section .data-form .input-form .book-desc,.input-1,.input-2 {
+    width: 100%
+}
+
+.home-section .data-form .input-form input[type=submit] {
+    height: 40px;
+    font-size: 13px;
+    width: 150px;
+    align-self: flex-start;
+    font-weight: 600
+}
+
+.home-section .error {
+    background-color: #fff;
+    padding: 10px 30px
+}
+
+#icard {
+    overflow-x: auto
+}
+
+.id-card {
+    border: 1px solid #efefef;
+    padding: 10px 15px;
+    width: 400px;
+    border-radius: 5px;
+    background-color: #fff3f3;
+    margin-top: 2rem;
+    margin-bottom: 2rem
+}
+
+.id-card h3 {
+    text-align: center;
+    background-color: #ff8551;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px 0;
+    line-height: 24px;
+    border-radius: 5px 5px 0 0
+}
+
+#college-img {
+    float: right;
+    width: 60px;
+    margin-top: .5rem
+}
+
+.id-card .primary-details {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: .5rem
+}
+
+.id-card .primary-details .img {
+    width: 70px;
+    height: 88px
+}
+
+.id-card .primary-details .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 2px solid #fff
+}
+
+.id-card .primary-details .content h4 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: -.3rem
+}
+
+.id-card .primary-details .content span {
+    font-size: 13px;
+    font-weight: 600
+}
+
+.id-card .secondary-details {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-top: .5rem;
+    margin-bottom: .5rem
+}
+
+.id-card .secondary-details .address {
+    width: min-content
+}
+
+.id-card span {
+    font-size: 14px
+}
+
+.send-book-request-form .id-download {
+    color: #fff;
+    background-color: #6c5dd4;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 1rem
+}
+
+@media (max-width:420px) {
+    .sidebar.close .nav-links li .sub-menu {
+        display: none
+    }
+}
+
+@media only screen and (max-width:550px) {
+    .home-section .control-panel .panel-container {
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 2rem
+    }
+
+    .home-section .control-panel .panel-container .panel {
+        padding: 30px 15px
+    }
+
+    .home-section .data-form .input-form .input-group,.home-section .input-form {
+        flex-direction: column
+    }
+
+    .home-section .control-panel .container .data-form {
+        width: 100%
+    }
+
+    .pagination {
+        flex-direction: column-reverse;
+        gap: 1rem
+    }
+
+    .pagination .pagination-list {
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 1.2rem!important
+    }
+
+    .home-section .control-panel .book-cover-img {
+        display: flex;
+        justify-content: center
+    }
+}
+
+@media only screen and (max-width:670px) {
+    .home-section .data-form .input-form .input-group {
+        flex-direction: column
+    }
+}
+
+@media only screen and (max-width:950px) {
+    .home-section .control-panel .container {
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden
+    }
+
+    .home-section .control-panel .container .data-form {
+        width: 100%;
+        overflow: hidden
+    }
+
+    .home-section .control-panel .book-table table {
+        width: 900px
+    }
+}

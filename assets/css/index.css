@@ -1,0 +1,1134 @@
+nav,
+nav .logo,
+nav .logo .icon,
+nav ul {
+  display: flex
+}
+
+.error-msg {
+  color: #e55352 !important
+}
+
+.books-container .book .img img,
+.home {
+  width: 100%
+}
+
+footer .container .list ul li,
+footer .logo-description .social-links .links li,
+nav ul {
+  list-style: none
+}
+
+.home .btns button a,
+.login-type a,
+footer .container .list ul li a,
+footer .logo-description .social-links .links li a,
+nav ul .login a,
+nav ul li a {
+  text-decoration: none
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif
+}
+
+html {
+  scroll-behavior: smooth
+}
+
+nav {
+  justify-content: space-between;
+  padding: 20px 30px;
+  align-items: center;
+  box-shadow: 0 .2rem 1rem rgb(0 0 0/15%)
+}
+
+nav .logo,
+nav ul {
+  align-items: center;
+  gap: 1rem
+}
+
+nav .logo .icon img {
+  width: 60px
+}
+
+nav .logo .logo-details h5 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #131428
+}
+
+nav ul {
+  gap: 2rem
+}
+
+nav ul li a {
+  color: #131428;
+  font-weight: 600;
+  transition: .3s ease-in-out
+}
+
+.home .btns button:nth-child(2) a,
+.home .title h2 span,
+footer .container .list a:hover,
+nav ul li a:hover {
+  color: #6c5dd4
+}
+
+.home .btns button,
+nav ul .login a {
+  border: 0;
+  padding: 12px 20px;
+  border-radius: 6px
+}
+
+nav ul .login a {
+  color: #fff;
+  background-color: #6c5dd4;
+  font-weight: 500
+}
+
+.hamburger {
+  flex-direction: column;
+  gap: .3rem;
+  cursor: pointer
+}
+
+.hamburger .line {
+  width: 25px;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #0e254e
+}
+
+.hamburger,
+.nav-list .logo {
+  display: none;
+  align-items: center
+}
+
+.nav-list .logo {
+  justify-content: space-around;
+  padding-top: 20px;
+  margin-bottom: 1rem
+}
+
+.nav-list .logo .title {
+  gap: .5rem
+}
+
+.home,
+.home .btns,
+.nav-list .logo .title {
+  display: flex;
+  align-items: center
+}
+
+.nav-list .logo .close {
+  background-color: transparent;
+  color: #00173d;
+  font-size: 20px;
+  border: 0
+}
+
+.home {
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5))0 0/cover, url(https://www.pixel-studios.com/blog/wp-content/uploads/2018/12/012.jpg)0 0/cover no-repeat;
+  height: 80vh
+}
+
+.home .title {
+  text-align: center;
+  width: 50%
+}
+
+.home .title h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  word-spacing: 4px;
+  color: #fff
+}
+
+.title h2 span {
+  -webkit-text-stroke-width: .04rem;
+  -webkit-text-stroke-color: #fff
+}
+
+.home .title p {
+  color: #fff;
+  margin-top: .5rem;
+  font-size: 20px
+}
+
+.home,
+.home .btns {
+  justify-content: center
+}
+
+.home .btns {
+  margin-top: 2rem;
+  gap: 1.5rem
+}
+
+.home .btns button {
+  font-size: 15px;
+  font-weight: 600
+}
+
+.home .btns button:first-child {
+  background-color: #6c5dd4
+}
+
+.home .btns button:first-child a {
+  color: #fff
+}
+
+.books-showcase,
+footer {
+  margin-top: 6rem;
+  padding: 0 30px
+}
+
+.books-showcase .title {
+  text-align: center;
+  font-size: 30px;
+  color: #131428
+}
+
+.books-showcase .books-container {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 3rem;
+  row-gap: 30px
+}
+
+.books-container .book {
+  width: 80%;
+  text-align: center;
+  border: 1px solid #f0f0f0;
+  padding: 15px;
+  border-radius: 6px
+}
+
+.books-container .book .img img {
+  border-radius: 6px
+}
+
+.books-container .book .book-detail h5 {
+  font-size: 15px;
+  color: #131428
+}
+
+.books-container .book .book-detail small {
+  font-style: italic
+}
+
+.books-container .book-detail .footer-btn {
+  margin-top: .5rem
+}
+
+.books-container .book-detail .footer-btn button {
+  background-color: #6c5dd4;
+  border: 0;
+  border-radius: 4px;
+  padding: 8px 12px
+}
+
+.books-container .book-detail .footer-btn button a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px
+}
+
+.about-us .main {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  margin-top: 6rem
+}
+
+.about-us .img img {
+  width: 450px
+}
+
+.about-us .about-content h4,
+.contact h3 {
+  font-size: 30px;
+  color: #131428;
+  font-weight: 600
+}
+
+.about-content p {
+  color: #444545
+}
+
+.contact {
+  margin-top: 5rem
+}
+
+.contact h3 {
+  text-align: center
+}
+
+.contact .main {
+  align-items: center;
+  justify-content: center;
+  gap: 2rem
+}
+
+.contact .main .map {
+  width: 90%;
+  padding: 0 30px;
+  margin-top: 1rem
+}
+
+.contact .main .map iframe {
+  height: 300px
+}
+
+.contact .main .contact-form {
+  border: 1px solid #f0f0f0;
+  border-radius: 10px;
+  padding: 30px;
+  width: 350px
+}
+
+.contact .contact-form h4 {
+  color: #131428;
+  border-left: 4px solid #6c5dd4;
+  padding-left: 10px;
+  text-transform: uppercase
+}
+
+.contact .contact-form p {
+  color: #838282;
+  font-size: 14px;
+  margin-top: .5rem
+}
+
+.contact .contact-form .input-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem
+}
+
+.book-content .footer .author-detail div,
+.contact .contact-form .input-form .input-field,
+.contact .main,
+footer .container .list ul {
+  display: flex;
+  flex-direction: column
+}
+
+.contact .contact-form .input-form input,
+.contact-form .input-form .message textarea {
+  height: 40px;
+  padding: 5px 10px;
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+  margin-top: .5rem
+}
+
+.contact .contact-form .input-form label {
+  font-size: 15px;
+  color: #131428;
+  font-weight: 500
+}
+
+.contact-form .input-form .message textarea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+  box-sizing: border-box;
+  padding: 10px
+}
+
+.contact-form .input-form input[type=submit] {
+  background-color: #6c5dd4;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 15px;
+  height: 50px;
+  font-weight: 500;
+  border: 0;
+  text-transform: uppercase;
+  cursor: pointer
+}
+
+.modal {
+  display: none;
+  width: -webkit-fill-available;
+  position: fixed;
+  z-index: 105;
+  left: 0;
+  top: 0;
+  align-items: center;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, .4);
+  transition: .3s ease-in-out
+}
+
+.modal-main {
+  display: flex;
+  justify-content: center;
+  width: inherit;
+  padding: 0 15px
+}
+
+.modal .modal-content {
+  width: 400px;
+  margin-top: 10%;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 6px
+}
+
+.modal .modal-content .modal-header {
+  display: flex;
+  justify-content: end
+}
+
+.modal-content .modal-header span i {
+  font-size: 30px;
+  cursor: pointer
+}
+
+.modal .modal-content .modal-body {
+  text-align: center
+}
+
+.modal .modal-content .modal-body img {
+  width: 80%
+}
+
+.modal .modal-content .modal-body h5 {
+  font-size: 20px;
+  font-weight: 600
+}
+
+.modal .modal-content .modal-body p {
+  font-size: 15px;
+  color: #444545;
+  font-weight: 500;
+  margin-top: .5rem
+}
+
+footer {
+  margin-top: 9rem
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-around
+}
+
+footer .container .logo-description {
+  width: 30%
+}
+
+footer .container .our-store {
+  width: 20%
+}
+
+footer .container .logo-description .logo {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  margin-bottom: 1rem
+}
+
+footer .logo-description .logo .img i {
+  font-size: 50px;
+  color: #6c5dd4
+}
+
+footer .logo-description .logo h4 {
+  color: #131428;
+  letter-spacing: 3px;
+  font-size: 20px;
+  margin-bottom: -5px
+}
+
+footer .logo-description .logo-body p {
+  font-size: 12px;
+  color: #444545
+}
+
+footer .logo-description .social-links h4 {
+  font-size: 15px;
+  margin-top: 1rem
+}
+
+footer .logo-description .social-links .links {
+  display: flex;
+  align-items: center;
+  gap: .3rem;
+  margin-top: .3rem
+}
+
+footer .logo-description .social-links .links i {
+  padding: 5px 8px;
+  border-radius: 5px
+}
+
+footer .logo-description .social-links .links li .fa-facebook-f {
+  color: #0165e1
+}
+
+footer .logo-description .social-links .links li .fa-facebook-f:hover {
+  background-color: #b0cef3
+}
+
+footer .logo-description .social-links .links li .fa-youtube {
+  color: red
+}
+
+footer .logo-description .social-links .links li .fa-youtube:hover {
+  background-color: #f5c6c6
+}
+
+footer .logo-description .social-links .links li .fa-twitter {
+  color: #1da1f2
+}
+
+footer .logo-description .social-links .links li .fa-twitter:hover {
+  background-color: #c8e6f8
+}
+
+footer .logo-description .social-links .links li .fa-linkedin {
+  color: #0a66c2
+}
+
+footer .logo-description .social-links .links li .fa-linkedin:hover {
+  background-color: #b1d1f1
+}
+
+footer .logo-description .social-links .links li .fa-instagram {
+  color: #e1306c
+}
+
+footer .logo-description .social-links .links li .fa-instagram:hover {
+  background-color: #f4ccda
+}
+
+footer .container .list h4 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #131428
+}
+
+footer .container .list ul {
+  gap: .3rem;
+  margin-top: .5rem
+}
+
+footer .container .list ul li a {
+  font-size: 12px;
+  font-weight: 500;
+  color: #444545
+}
+
+footer .container .our-store li i {
+  color: #6c5dd4;
+  font-size: 15px;
+  margin-right: .5rem
+}
+
+.book-overview {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+  padding: 0 30px
+}
+
+.book-overview .img img {
+  width: 250px;
+  border-radius: 10px
+}
+
+.book-overview .book-content h4 {
+  font-size: 25px;
+  color: #131428;
+  font-weight: 600
+}
+
+.book-overview .book-content .meta {
+  justify-content: space-between;
+  margin-top: .5rem;
+  margin-bottom: 1.5rem
+}
+
+.book-content .meta .review,
+.book-overview .book-content .meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem
+}
+
+.book-content .meta .comment-like small,
+.book-overview .book-content .meta .rating {
+  display: flex;
+  align-items: center;
+  gap: .3rem;
+  font-weight: 600
+}
+
+.book-overview .book-content .meta .rating i {
+  color: #fd7747;
+  font-size: 13px
+}
+
+.book-content .meta .comment-like small {
+  font-size: 12px;
+  font-weight: 500
+}
+
+.book-content .meta .comment-like {
+  display: flex;
+  align-items: center;
+  gap: .5rem
+}
+
+.book-overview .book-content .meta .comment-like img {
+  width: 15px
+}
+
+.book-overview .book-content .meta .social-btn {
+  display: flex;
+  gap: .5rem;
+  flex-wrap: wrap
+}
+
+.book-overview .book-content .meta .social-btn a {
+  text-decoration: none;
+  padding: 6px 7px;
+  border-radius: 9px;
+  font-size: 13px;
+  color: #fff
+}
+
+.book-overview .book-content .meta .social-btn a i,
+.bookdata-recentbook .book-container .book .content .btn button i {
+  margin-right: .3rem
+}
+
+.book-overview .book-content .meta .social-btn a:nth-child(1) {
+  background-color: #6c5dd4
+}
+
+.book-overview .book-content .meta .social-btn a:nth-child(2) {
+  background-color: #61c2e2
+}
+
+.book-overview .book-content .meta .social-btn a:nth-child(3) {
+  background-color: #56c156
+}
+
+.book-overview .book-content .meta .social-btn a:nth-child(4) {
+  background-color: #a9a9a9
+}
+
+.book-overview .book-content p {
+  color: #131428;
+  font-size: 12px;
+  margin-top: 1rem
+}
+
+.book-content .footer {
+  gap: 1rem;
+  border-bottom: 2px dashed #ccc;
+  padding-bottom: 30px
+}
+
+.book-content .footer .author-detail {
+  display: flex;
+  align-items: center;
+  gap: 1rem
+}
+
+.book-content .footer .author-detail div small {
+  font-size: 12px;
+  color: #a9a9a9
+}
+
+.book-content .footer .author-detail div strong {
+  font-size: 14px;
+  font-weight: 500
+}
+
+.book-content .footer .badge span {
+  padding: 7px 15px;
+  border-radius: 10px;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600
+}
+
+.book-content .footer .badge span i,
+.book-content .input-group .cartbtn i {
+  margin-right: .5rem
+}
+
+.book-content .footer,
+.book-overview .book-content .book-price {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1rem
+}
+
+.book-overview .book-content .book-price {
+  gap: 1.5rem
+}
+
+.book-content .book-price .price strong {
+  font-size: 26px;
+  font-weight: 600
+}
+
+.book-content .cartbtn {
+  background-color: #6c5dd4;
+  border: 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 8px 10px;
+  color: #fff
+}
+
+.book-content .input-group .like {
+  background-color: #fff;
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+  padding: 8px 10px;
+  color: #6c5dd4
+}
+
+.bookdata-recentbook {
+  padding: 0 30px;
+  margin-top: 2rem
+}
+
+.bookdata-recentbook .main {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem
+}
+
+.bookdata-recentbook table {
+  width: 70%;
+  border-collapse: collapse;
+  height: 400px
+}
+
+.bookdata-recentbook .main table tr th {
+  text-align: start;
+  font-weight: 600;
+  padding-left: 20px
+}
+
+.bookdata-recentbook .main table tr td {
+  padding: 0 15px
+}
+
+.bookdata-recentbook .main table tr {
+  font-size: 14px;
+  border: 1px solid #f0f0f0
+}
+
+.bookdata-recentbook .recent-book {
+  width: 40%
+}
+
+.bookdata-recentbook .recent-book h4 {
+  font-size: 18px;
+  padding: 0 20px
+}
+
+.bookdata-recentbook .book-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem
+}
+
+.bookdata-recentbook .book-container .book {
+  display: flex
+}
+
+.bookdata-recentbook .book-container .book .img {
+  text-align: center
+}
+
+.bookdata-recentbook .book-container .book .img img {
+  width: 70%;
+  border-radius: 5px
+}
+
+.bookdata-recentbook .book-container .book .content {
+  width: -webkit-fill-available
+}
+
+.bookdata-recentbook .book-container .book .content h5 {
+  color: #131428;
+  font-size: 14px
+}
+
+.bookdata-recentbook .book-container .book .content .badge span,
+.login-type div h4 {
+  color: #6c5dd4;
+  text-transform: uppercase;
+  font-size: 11px
+}
+
+.bookdata-recentbook .book-container .book .content .price strong {
+  font-size: 14px;
+  font-weight: 600;
+  color: #131428
+}
+
+.bookdata-recentbook .book-container .book .content .btn button {
+  background-color: #6c5dd4;
+  border: 0;
+  color: #fff;
+  font-size: 13px;
+  padding: 5px 6px;
+  border-radius: 5px;
+  margin-top: .5rem;
+  cursor: pointer
+}
+
+.bookdata-recentbook .book-container .morebtn {
+  display: flex;
+  justify-content: center;
+  margin-top: .5rem
+}
+
+.bookdata-recentbook .book-container .view-more {
+  background-color: #ebe7ff;
+  width: 85%;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  color: #6c5dd4;
+  font-weight: 500
+}
+
+@media only screen and (max-width:464px) {
+
+  .home .title,
+  footer .container .our-store {
+    width: 90% !important
+  }
+
+  .home .title h2 {
+    font-size: 25px
+  }
+
+  .home .title p {
+    font-size: 18px
+  }
+
+  .home .btns {
+    flex-direction: column
+  }
+
+  .home .btns button {
+    width: 150px
+  }
+
+  .books-showcase .books-container {
+    grid-template-columns: repeat(1, 1fr) !important
+  }
+
+  .book-overview .img img {
+    width: 100% !important
+  }
+
+  .about-us .img img {
+    width: 100%
+  }
+
+  .contact .main .contact-form,
+  .contact .main .map {
+    width: 80%
+  }
+}
+
+@media only screen and (max-width:592px) {
+  .book-overview {
+    flex-direction: column
+  }
+
+  .book-overview .img {
+    text-align: center
+  }
+
+  .book-overview .img img {
+    width: 70%
+  }
+
+  .bookdata-recentbook table {
+    width: 100%
+  }
+
+  .bookdata-recentbook .recent-book {
+    width: 100% !important
+  }
+}
+
+@media only screen and (max-width:860px) {
+  .home .title {
+    width: 80%
+  }
+
+  .about-us .main,
+  .navbar .nav-list {
+    flex-direction: column
+  }
+
+  .hamburger {
+    display: flex
+  }
+
+  .navbar .nav-list {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    gap: 1rem;
+    align-items: flex-start;
+    background-color: #fff;
+    width: 100%;
+    max-width: 300px;
+    height: 100vh;
+    transition: .3s;
+    z-index: 4;
+    padding-top: 1rem
+  }
+
+  .nav-list.active {
+    right: 0
+  }
+
+  .nav-list .btn {
+    margin: 20px
+  }
+
+  .nav-list.active .logo {
+    display: flex;
+    width: inherit
+  }
+
+  .nav-list li {
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+    padding: 0 25px 20px 20px
+  }
+
+  .nav-list .login,
+  .nav-list .signup {
+    margin-left: 20px;
+    width: 80%
+  }
+
+  .books-showcase .books-container {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center
+  }
+
+  .books-showcase .books-container .book .book-detail h5 {
+    font-size: 18px
+  }
+
+  .book-detail small {
+    font-size: 16px
+  }
+
+  .book-detail .footer-btn button a {
+    font-size: 17px !important
+  }
+
+  .about-content,
+  footer .container .logo-description {
+    width: 80%
+  }
+
+  .bookdata-recentbook .main,
+  footer .container {
+    flex-direction: column
+  }
+
+  .bookdata-recentbook .recent-book {
+    width: 80%;
+    margin-top: 3rem
+  }
+
+  footer .container {
+    text-align: center;
+    gap: 2rem;
+    align-items: center
+  }
+
+  footer .container .logo-description .logo,
+  footer .logo-description .social-links .links {
+    justify-content: center
+  }
+
+  footer .container .our-store {
+    width: 60%
+  }
+}
+
+.login-type,
+.login-type .main {
+  display: flex;
+  align-items: center
+}
+
+.login-type {
+  justify-content: center;
+  height: 100vh
+}
+
+.login-type .main {
+  gap: 30px
+}
+
+.login-type .main div {
+  text-align: center;
+  transition: .3s all ease-in-out
+}
+
+.login-type div i {
+  font-size: 150px;
+  color: #6c5dd4
+}
+
+.login-type .main div:hover {
+  transform: scale(1.1, 1.1)
+}
+
+.login-type .vr-line {
+  height: 30vh;
+  width: 3px;
+  background-color: #838282
+}
+
+.login-type div h4 {
+  font-size: 20px;
+  color: #838282
+}
+
+.forgot-pass,
+.login,
+.registration,
+.update-pass {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login h3,
+.registration h3 {
+  text-align: center;
+  color: #6c5dd4;
+  font-weight: 600;
+  font-size: 30px
+}
+
+.forgot-pass .forgot-form,
+.login .login-form,
+.registration .registration-form,
+.update-pass .update-form {
+  width: 350px;
+  margin-top: 2rem;
+  border: 1px solid #f0f0f0;
+  padding: 35px 15px;
+  border-radius: 10px
+}
+
+.forgot-form h4,
+.login-form h4,
+.registration-form h4,
+.update-form h4 {
+  font-size: 18px;
+  color: #131428;
+  border-left: 4px solid #6c5dd4;
+  padding-left: 10px;
+  text-transform: uppercase
+}
+
+.forgot-form p,
+.login-form p,
+.registration-form p,
+.update-form p {
+  font-size: 14px;
+  color: #838282;
+  margin-top: .5rem
+}
+
+.forgot-form .input-form,
+.login-form .input-form,
+.registration-form .input-form,
+.update-form .input-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem
+}
+
+.forgot-form label,
+.login-form label,
+.registration-form label,
+.update-form label {
+  color: #131428;
+  font-size: 14px;
+  font-weight: 500
+}
+
+.forgot-form .input-form input,
+.login-form .input-form input,
+.registration-form .input-form input,
+.update-form .input-form input {
+  width: -webkit-fill-available;
+  margin-top: .5rem;
+  border: 1px solid #f0f0f0;
+  height: 40px;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: 0
+}
+
+.forgot-form .input-form input[type=submit],
+.login-form .input-form input[type=submit],
+.registration-form .input-form input[type=submit],
+.update-form .input-form input[type=submit] {
+  background-color: #6c5dd4;
+  border: 0;
+  border-radius: 5px;
+  height: 50px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 1rem;
+  cursor: pointer
+}
+
+.forgot-form .input-form a,
+.login-form .input-form a,
+.registration-form .input-form a {
+  text-decoration: none;
+  color: #6c5dd4;
+  font-weight: 500
+}
