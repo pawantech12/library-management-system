@@ -20,7 +20,7 @@ Password: librarian
 [mail function]
 SMTP=smtp.gmail.com
 smtp_port=587
-sendmail_from = codewithpawanofficial@gmail.com(enter your email address that wiil be used for sending email from localhost as sender email.)
+sendmail_from = (enter your email address that wiil be used for sending email from localhost as sender email.)
 sendmail_path = "\"C:\xampp\sendmail\sendmail.exe\" -t"
 ```
 Now Save this file and close it and follow next step.
@@ -33,8 +33,8 @@ smtp_server=smtp.gmail.com
 smtp_port=587
 error_logfile=error.log
 debug_logfile=debug.log
-auth_username=codewithpawanofficial@gmail.com(same email address that you enter in php.ini file)
-auth_password=ghihcljrufojsngj
+auth_username=(same email address that you enter in php.ini file)
+auth_password=your email app password
 ```
 Now save the file and close it here you have end up with configuration now stop the apache server and mysql server if you have started and close it and restart xampp server and start it.
 
