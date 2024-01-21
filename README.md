@@ -1,11 +1,8 @@
 <div align="center">
   
-  ![GitHub repo size](https://img.shields.io/github/repo-size/pawantech12/
-library-management-system)
-  ![GitHub stars](https://img.shields.io/github/stars/pawantech12/
-library-management-system?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/pawantech12/
-library-management-system?style=social)
+  ![GitHub repo size](https://img.shields.io/github/repo-size/pawantech12/library-management-system)
+  ![GitHub stars](https://img.shields.io/github/stars/pawantech12/library-management-system?style=social)
+  ![GitHub forks](https://img.shields.io/github/forks/pawantech12/library-management-system?style=social)
 
   <br />
 
